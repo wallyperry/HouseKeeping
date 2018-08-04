@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="android:windowBackground">@drawable/pic_splash</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--时间选择器-->
+    <style name="time_picker_style">
+        <item name="android:windowEnterAnimation">@anim/time_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/time_dialog_out_anim</item>
+    </style>
+
+
+</resources>
